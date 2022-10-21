@@ -584,7 +584,8 @@ footer .container{
 
 }
 
-@media screen and (max-widht: 648px){
+/* 2 - Sintaxe */
+@media screen and (max-widht: 390px){
     .logo{
         width: 110px;
         top: 5px;
@@ -625,4 +626,87 @@ footer .container{
         font-size: 12px;
     }
 
-}
+
+    @media screen and (max-widht: 412px){
+        .logo{
+            width: 110px;
+            top: 5px;
+        }
+    
+        #about .right{
+            margin-top: 80px;
+        }
+    
+        #about .right img{
+            width: 60%;
+        }
+    
+        #menu .box h2{
+            font-size: 18px;
+        }
+    
+        #menu .box p{
+            font-size: 12px;
+        }
+    
+        #menu .box .text-md{
+            font-size: 12px;
+        }
+    
+        #service .box i{
+            border: 3px solid #2b2b2b;
+            border-radius: 25px;
+            padding: 20px;
+            margin-top: 10px;
+        }
+    
+        #service .box h2{
+            font-size: 18px;
+        }
+    
+        #service .box p{
+            font-size: 12px;
+        }
+
+        @media screen and (max-widht: 390px){
+            .logo{
+                width: 110px;
+                top: 5px;
+            }
+        
+            #about .right{
+                margin-top: 80px;
+            }
+        
+            #about .right img{
+                width: 60%;
+            }
+        
+            #menu .box h2{
+                font-size: 18px;
+            }
+        
+            #menu .box p{
+                font-size: 12px;
+            }
+        
+            #menu .box .text-md{
+                font-size: 12px;
+            }
+        
+            #service .box i{
+                border: 3px solid #2b2b2b;
+                border-radius: 25px;
+                padding: 20px;
+                margin-top: 10px;
+            }
+        
+            #service .box h2{
+                font-size: 18px;
+            }
+        
+            #service .box p{
+                font-size: 12px;
+            }
+    
+        }
